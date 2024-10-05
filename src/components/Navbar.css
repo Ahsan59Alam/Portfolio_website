@@ -1,0 +1,31 @@
+nav {
+  background-color: #333;
+  padding: 15px 0;
+  z-index: 99;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
